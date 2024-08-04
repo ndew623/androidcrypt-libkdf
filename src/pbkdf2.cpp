@@ -73,7 +73,7 @@ std::span<std::uint8_t> PBKDF2(Hashing::HashAlgorithm algorithm,
         std::numeric_limits<std::uint32_t>::max();
 
     // If the key span size is zero, there is no work to do
-    if (key.size() == 0) return key.first(0);
+    if (key.empty()) return key.first(0);
 
     // Ensure the iterations is not zero
     if (iterations == 0) throw KDFException("Iteration count cannot be zero");

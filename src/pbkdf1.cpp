@@ -69,7 +69,7 @@ std::span<std::uint8_t> PBKDF1(Hashing::HashAlgorithm algorithm,
                                const std::span<std::uint8_t> key)
 {
     // If the key span size is zero, there is no work to do
-    if (key.size() == 0) return key.first(0);
+    if (key.empty()) return key.first(0);
 
     // Ensure the iterations is not zero
     if (iterations == 0) throw KDFException("Iteration count cannot be zero");
