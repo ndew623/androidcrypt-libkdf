@@ -31,7 +31,7 @@ FetchContent_Declare(libhash
 # Fetch the Security Utilities library
 FetchContent_Declare(secutil
     GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/secutil.git
-    GIT_TAG        v1.0.0
+    GIT_TAG        v1.0.1
     GIT_SHALLOW    true)
 
 # If not installing libkdf, turn off installation for dependencies
