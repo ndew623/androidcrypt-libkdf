@@ -12,7 +12,7 @@ if(libkdf_BUILD_TESTS)
     # Fetch the Simple Test Framework library
     FetchContent_Declare(stf
         GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/stf.git
-        GIT_TAG        v1.0.0
+        GIT_TAG        v1.0.1
         GIT_SHALLOW    true)
 
     # It is not necessary to install the STF library
@@ -25,13 +25,13 @@ endif()
 # Fetch the Hashing library
 FetchContent_Declare(libhash
     GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/libhash.git
-    GIT_TAG        v1.0.2
+    GIT_TAG        v1.0.3
     GIT_SHALLOW    true)
 
 # Fetch the Security Utilities library
 FetchContent_Declare(secutil
     GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/secutil.git
-    GIT_TAG        v1.0.2
+    GIT_TAG        v1.0.3
     GIT_SHALLOW    true)
 
 # If not installing libkdf, turn off installation for dependencies

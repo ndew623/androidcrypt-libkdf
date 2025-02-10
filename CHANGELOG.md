@@ -1,5 +1,9 @@
 # Change Log
 
+v1.0.3
+
+- Updated library dependencies (stf, secutil, and libhash)
+
 v1.0.2
 
 - Updated dependencies (secutil and libhash)
