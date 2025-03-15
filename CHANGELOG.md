@@ -1,5 +1,9 @@
 # Change Log
 
+v1.0.4
+
+- Updated dependencies to support FreeBSD builds
+
 v1.0.3
 
 - Updated library dependencies (stf, secutil, and libhash)

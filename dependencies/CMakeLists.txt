@@ -8,6 +8,7 @@ else()
     set(TERRAPANE_SOURCE_URI "https://github.com/terrapane")
 endif()
 
+# Bring in the Simple Test Framework if building tests
 if(libkdf_BUILD_TESTS)
     # Fetch the Simple Test Framework library
     FetchContent_Declare(stf
@@ -25,13 +26,13 @@ endif()
 # Fetch the Hashing library
 FetchContent_Declare(libhash
     GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/libhash.git
-    GIT_TAG        v1.0.3
+    GIT_TAG        v1.0.4
     GIT_SHALLOW    true)
 
 # Fetch the Security Utilities library
 FetchContent_Declare(secutil
     GIT_REPOSITORY ${TERRAPANE_SOURCE_URI}/secutil.git
-    GIT_TAG        v1.0.3
+    GIT_TAG        v1.0.4
     GIT_SHALLOW    true)
 
 # If not installing libkdf, turn off installation for dependencies
