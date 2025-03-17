@@ -1,5 +1,9 @@
 # Change Log
 
+v1.0.5
+
+- Updated libhash library to 1.0.5
+
 v1.0.4
 
 - Updated dependencies to support FreeBSD builds
