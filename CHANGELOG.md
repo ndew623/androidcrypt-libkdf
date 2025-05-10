@@ -3,6 +3,7 @@
 v1.0.7
 
 - Updated dependencies
+- Enabled stricter compiler warnings
 
 v1.0.6
 
